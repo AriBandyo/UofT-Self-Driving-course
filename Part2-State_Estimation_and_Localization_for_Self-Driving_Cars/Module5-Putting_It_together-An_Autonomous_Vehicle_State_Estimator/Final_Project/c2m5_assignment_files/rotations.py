@@ -1,7 +1,3 @@
-# Utitlity file with functions for handling rotations
-#
-# Author: Trevor Ablett
-# University of Toronto Institute for Aerospace Studies
 
 import numpy as np
 

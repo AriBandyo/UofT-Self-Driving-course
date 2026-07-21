@@ -1,7 +1,3 @@
-# Main code for the Coursera SDC Course 2 final project
-#
-# Author: Trevor Ablett
-# University of Toronto Institute for Aerospace Studies
 
 import pickle
 import sys
@@ -128,7 +124,7 @@ p_cov = np.zeros([imu_f.data.shape[0], 9, 9])  # covariance matrices at each tim
 p_est[0] = gt.p[0]      # Position of the vehicle
 v_est[0] = gt.v[0]      # Velocity of the vehicle
 q_est[0] = Quaternion(euler=gt.r[0]).to_numpy()
-p_cov[0] = np.eye(9)    # covariance of estimate(估计的协方差)
+p_cov[0] = np.eye(9)    # covariance of estimat)
 gnss_i = 0
 lidar_i = 0
 
